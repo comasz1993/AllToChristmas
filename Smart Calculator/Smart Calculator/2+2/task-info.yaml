@@ -1,0 +1,24 @@
+type: edu
+custom_name: stage1
+files:
+- name: src/calculator/Main.java
+  visible: true
+  text: |
+    package calculator;
+
+    import java.util.Scanner;
+
+    public class Main {
+
+        public static void main(String[] args) {
+            Scanner scanner = new Scanner(System.in);
+            // put your code here
+        }
+    }
+  learner_created: false
+- name: test/Test.java
+  visible: false
+  learner_created: false
+feedback_link: https://hyperskill.org/projects/42/stages/220/implement
+status: Unchecked
+record: -1
